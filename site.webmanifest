@@ -1,23 +1,22 @@
 {
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Skate TV",
   "short_name": "Skate TV",
-  "start_url": ".",
+  "name": "Premiuim things for Free on Skate TV",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEir5WlHgBPXQTbgFuRKLwZoJu5d3RRQsyB5xikv6Knk8QkGaupkox5ISjc0GY-YGvOD3KgJD1rq8f2XeDZcTlIg9MZswlyV0FrQjmdaWHRZEmGP2q6X4Y4FiNS8Vj9uTGiQqowup_qot-KWsY4UwskMuNmw_NEhzV0soQqwsi3o-rOXdNPhXsqctmBf=s16000",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEhh-LjoEyyui2XJKcQtdWuXkqnmkaWvcDAvtChigZPL-HWqJ2SjzXQiQ1FMaJmGVfjh4Vxd8ZV3l7Ua7aipuIZBfTHXbfNK_h5cN0wc72zVH1zVD-rgWItTMqB8nIVSLlkb625RTrvE4ON7xUSCGUkg-oxTz0sVXMcDnZATV-aGPpJKJpokBxPIGCxb=s16000",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://www.skatestv.com/",
+  "background_color": "#3367D6",
   "display": "standalone",
-  "background_color": "#fff",
+  "scope": "Premium wordpress plugins, Download PHP Scripts, Android ios games and Apps, Free and latest versions Daily Releases!",
+  "theme_color": "#3367D6",
   "description": "Premium wordpress plugins, Download PHP Scripts, Android ios games and Apps, Free and latest versions Daily Releases!",
-  "icons": [{
-    "src": "https://blogger.googleusercontent.com/img/a/AVvXsEglVW70HyALwiTWciq_kiR7XHtYX6_arQMby9-naS4f7Be8CgX8t37duqpGuqhZv7YKon_1r2RfzkF9uHLoiVl4nvLYI-X7gkDSl0meUg3XBGNVpfS6HKJ9lNqyKsXmxFfLJ2ifle-0ghbBjwvftJZZOrc2FdB0LD66dDHpc_HpnvmaHz0bDY79lvR-=s320",
-    "sizes": "512x512",
-    "type": "image/png"
-  },
- {
-    "src": "https://blogger.googleusercontent.com/img/a/AVvXsEiEZ6pQrv-eTb2oiMRGjpC4Fwhdhw00Y1KLtNIXFV6-6HCLfGnlAqWwo_CnPzkXzyIRUnbyfFsNITpPXkiLlxCsULuzSQVm0M7hOuIo6WQP7jYX_qk4r6QB9eFcph_FerssnPMeYuli93_Vr0b1Y3Fa7aAzKIiscI2iQq3tTpBAcMVx7j0-4B4H84h-",
-    "sizes": "192x192",
-    "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "google",
-    "url": "https://go.skatestv.com/"
-  }]
 }
