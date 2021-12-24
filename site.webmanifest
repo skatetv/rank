@@ -1,1 +1,10 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Skate TV",
+  "short_name": "Skates TV",
+  "start_url": "https://www.skatestv.com/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Premium wordpress plugins, Download PHP Scripts, Android ios games and Apps, Free and latest versions Daily Releases!",
+  "icons":[{"src":"https://blogger.googleusercontent.com/img/a/AVvXsEiEZ6pQrv-eTb2oiMRGjpC4Fwhdhw00Y1KLtNIXFV6-6HCLfGnlAqWwo_CnPzkXzyIRUnbyfFsNITpPXkiLlxCsULuzSQVm0M7hOuIo6WQP7jYX_qk4r6QB9eFcph_FerssnPMeYuli93_Vr0b1Y3Fa7aAzKIiscI2iQq3tTpBAcMVx7j0-4B4H84h-","sizes":"192x192","type":"image/png"},{"src":"https://blogger.googleusercontent.com/img/a/AVvXsEglVW70HyALwiTWciq_kiR7XHtYX6_arQMby9-naS4f7Be8CgX8t37duqpGuqhZv7YKon_1r2RfzkF9uHLoiVl4nvLYI-X7gkDSl0meUg3XBGNVpfS6HKJ9lNqyKsXmxFfLJ2ifle-0ghbBjwvftJZZOrc2FdB0LD66dDHpc_HpnvmaHz0bDY79lvR-=s320","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+}
