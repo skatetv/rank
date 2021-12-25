@@ -1,4 +1,4 @@
-/* Anti Noscript JavaScript Blocker By Www.SmartTechMukesh.Online */
+/* Anti Noscript JavaScript Blocker*/
 #content-wrapper, #footer-wrapper {display:none}
 body,html {overflow:hidden}
 #stm-anti-noscript {background:rgba(0,0,0,0.85);padding:0;position:fixed;bottom:0;left:0;top:-100px;right:0;z-index:1000;opacity:1;visibility:visible;height:auto;}
