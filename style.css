@@ -89,19 +89,6 @@
 .sidebar .FeaturedPost .item-content{padding:15px 0 0}
 .sidebar .FeaturedPost .item-title, .PopularPosts .item-title{font-size:95%}
 
-/* Sitemap */
-.Blog .sitemaps .sitemap-box{font-size:14px;line-height:1.58em}
-.Blog .sitemaps .sitemap-box:not(:last-child){margin-bottom:35px;padding-bottom:25px;border-bottom:2px solid #ebeced}
-.Blog .sitemaps .judul{margin-top:0;font-size:14px;color:$(text.colors)}
-.Blog .sitemaps .judul:before{content:'Label: ';margin-right:5px}
-.Blog .sitemaps ol{list-style:none;margin:0;padding:0;counter-reset:panduan-count}
-.Blog .sitemaps li:not(:last-child){margin-bottom:10px}
-.Blog .sitemaps li{display:flex}
-.Blog .sitemaps li:before{content:counter(panduan-count) '.';counter-increment:panduan-count;flex-shrink:0;width:40px;font-size:22px;font-family:$(heading.font);line-height:normal;color:rgba(0,0,0,.15);}
-.Blog .sitemaps li a{color:$(main.colors);font-size:90%;font-weight:700;font-family:$(heading.font)}
-.Blog .sitemaps li a:after{content:'Read more';display:block;margin-top:2px;color:$(text.colors);font-size:11px;font-family:$(body.font);font-weight:400;line-height:1.58em}
-.Blog .sitemaps li a:hover:after{text-decoration:underline}
-
 
 /* Error 404 Page */
 .error-404{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}
@@ -111,3 +98,17 @@
 .error-container h3 span{display:block;font-size:140px;line-height:.8;margin-bottom:-2.4rem;color:#ebebf0} .dark-mode .error-container h3 span{color:rgba(0,0,0,.2)}
 .error-container p{margin:15px 5% 30px;font-size:16px;line-height:1.4em}
 .error-container .button{margin:0;padding:1em 2em;font-size:1em;font-weight:700;font-family:$(heading.font);line-height:1.2em}
+
+
+/* Sample Ads (Silahkan hapus bagian ini jika iklan sudah di replace semua) */
+.ads-here{position:relative;display:flex;align-items:stretch;flex-wrap:wrap;min-height:150px;padding:15px;border:1px solid rgba(0,0,0,.05);border-radius:3px;color:#989b9f;font-size:75%}
+.ads-here:after{content:'';display:block;width:50px;height:10px;background-color:rgba(0,0,0,.05);border-radius:0 0 0 8px;position:absolute;top:0;right:0}
+.ads-here .ads-img{width:45%;display:flex;flex-shrink:0;align-items:center;justify-content:center;font-style:normal;background-color:rgba(0,0,0,.05)}
+.ads-here .ads-img:before{content:'Sample ad'}
+.ads-here .ads-content{width:55%;padding:20px 0 0 20px}
+.ads-here .ads-content:before, .ads-here .ads-content:after{content:'';display:block;width:100%;padding-top:4%;background-color:rgba(0,0,0,.05)}
+.ads-here .ads-content:after{width:70%;margin-top:12px}
+.ads-here.feed .ads-img{width:100%;min-height:90px;margin-bottom:15px}
+.ads-here.feed .ads-content{padding:0;width:60%} .ads-here.feed .ads-content:before, .ads-here.feed .ads-content:after{padding-top:6%}
+@media screen and (max-width:768px){.ads-here{min-height:90px}.ads-here .ads-content{padding-top:8px}.ads-here .ads-content:before, .ads-here .ads-content:after{padding-top:8%}}
+.dmca-sample{font-size:8px;color:rgba(254,254,254,.6);border-radius:3px;overflow:hidden} .dmca-sample:before{content:'DMCA';padding:5px 10px;background-color:#2a2a2a} .dmca-sample:after{content:'Protected';padding:5px 10px;background-color:rgba(0,0,0,.1)}
