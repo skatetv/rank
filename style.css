@@ -1,3 +1,95 @@
+/* Header */
+.K2-grid {
+    padding: 5px;
+    text-align: center;
+}
+
+.K2-grid ul {
+    clear: both;
+    margin: 15px 0 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.coll-3 ul li {
+    width: 30%;
+}
+
+.K2-grid li {
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.K2-grid li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.K2-grid li svg {
+    margin: 3px 0;
+    width: 35px;
+    height: 35px;
+    fill: #26ae61;
+    display: inline-block;
+}
+
+.K2-grid li span {
+    display: block;
+    padding: 0 3px;
+}
+
+
+/* Header */
+
+
+/* box */
+.asdesc{position:relative;display:inline-block;width:320px;margin:0 3px 30px;padding:20px; border:1px solid #eceff1; font-size:14px;line-height:1.8em;border-radius:15px;} .asdesc h3, .asdesc h4, .asdesc b{font-size:13px;font-weight:400; margin:0;padding:2px 14px;background-color:#282828;border:1px solid #eceff1;border-radius:15px; position:absolute;top:-15.5px;left:20px;color:#fefefe;} 
+.drkM .asdesc b{background-color:#252526}
+.asbutton{display:inline-flex;align-items:center; margin:12px 12px 12px 0;padding:10px 15px;outline:0;border:2px; border-radius:50px;line-height:20px; color:#fefefe; background-color:#204ecf; font-size:13px;font-family:'Noto Sans', sans-serif; white-space:nowrap;overflow:hidden;max-width:100%}.asbutton.outline{color:inherit; background-color:transparent; border:1px solid #eceff1} .asbutton.outline:hover{border-color:#204ecf}
+/* box */
+
+/* blockquote */
+.Blog blockquote{position:relative;font-size:.9rem;line-height:1.62em;margin-left:0;margin-right:0;padding:30px 25px;border-left:2px solid #ebeced}
+.Blog blockquote.style-1{padding:30px 25px 30px 80px;border-radius:4px;border:2px solid #ebeced}
+.Blog blockquote.style-1:before{content:'\201D';display:block;position:absolute;font-weight:700;font-size:60px;font-family:$(heading.font);top:7px;left:25px;line-height:normal;color:rgba(0,0,0,.15)}
+.Blog blockquote.style-1 ul{font-size:97%}
+/* blockquote */
+
+/* note */
+.Blog .note{position:relative;padding:20px 30px 20px 50px;background-color:#e1f5fe;color:#01579b;font-size:.87rem;line-height:1.62em;border-radius:3px}
+.Blog .note:before{content:'\2605';position:absolute;left:18px;font-size:20px}
+.Blog .noteAlert{background-color:#ffdfdf;color:#e65151}
+.Blog .noteAlert:before{content:'\2691'}
+/* note */
+
+/* Widget FeaturedPost */
+.FeaturedPost article{display:flex;align-items:center;flex-wrap:wrap;margin:0;padding:10px;position:relative;overflow:hidden}
+.FeaturedPost article:after{content:'';display:block;min-width:25px;padding:4px 0;background-color:$(link.bg.colors);position:absolute;top:0;right:0;border-radius:0 0 0 3px}
+.FeaturedPost .item-thumbnail{flex:0 0 auto;width:310px;margin-right:20px}
+.FeaturedPost .item-content{flex:1 0;padding:8px 8px 8px 0;width:calc(100% - 330px)}
+.FeaturedPost .item-label a:hover, .PopularPosts .item-label a:hover, .Label li a .label-title:hover{text-decoration:underline}
+.FeaturedPost .item-title{font-size:120%;line-height:1.48em}
+.FeaturedPost .item-title a, .PopularPosts .item-title a{-webkit-line-clamp:2}
+.FeaturedPost .item-entry{margin-top:12px;font-size:90%}
+.sidebar .FeaturedPost article{display:block;padding:0;box-shadow:none}
+.sidebar .FeaturedPost .item-content{padding:15px 0 0}
+.sidebar .FeaturedPost .item-title, .PopularPosts .item-title{font-size:95%}
+
+
 /* Error 404 Page */
 .error-404{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}
 .error-404:before{display:none}
