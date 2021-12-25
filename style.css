@@ -90,6 +90,16 @@
 .sidebar .FeaturedPost .item-title, .PopularPosts .item-title{font-size:95%}
 
 
+/* Addtional Style */
+.button{display:inline-flex;align-items:center;margin:15px 15px 15px 0;padding:10px 20px;outline:0;border:0;color:#fefefe;background-color:$(link.bg.colors);border-radius:3px;font-size:13px;line-height:22px;}
+.button.outline{color:$(text.colors);background-color:transparent;border:1px solid $(alt.text.colors)}
+.button.whatsapp{background-color:#25D366}
+.button:hover{color:#fefefe;opacity:.75}
+.button.outline:hover{color:$(link.bg.colors);border-color:$(link.bg.colors)}
+.button-info{display:flex;flex-wrap:wrap;justify-content:center;margin:12px 0 0}
+.button-info > *{margin:0 12px 12px 0}
+.button-info > *:last-child{margin-right:0}
+
 /* Error 404 Page */
 .error-404{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}
 .error-404:before{display:none}
