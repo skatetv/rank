@@ -90,6 +90,57 @@
 .sidebar .FeaturedPost .item-title, .PopularPosts .item-title{font-size:95%}
 
 
+/* Widget Blog Share */
+.Blog .post-share{display:flex;margin:40px 0;padding:25px 0;border:2px solid rgba(230,230,230,.5);border-left:0;border-right:0;font-size:13px;color:$(alt.text.colors)}
+.Blog .post-shareIcon{flex-grow:1}
+.Blog .post-shareIcon:not(:first-child){margin-left:15px}
+.Blog .post-shareIcon > *{display:flex;align-items:center;padding:10px 18px;line-height:20px;font-size:14px;color:$(text.colors)}
+.Blog .post-shareIcon > * svg{width:20px;height:20px;fill:$(icon.alt.colors)}
+.Blog .post-shareIcon > * svg.line, .Blog .post-shareInner li > * svg.line{fill:none;stroke:$(icon.alt.colors)}
+.Blog .post-shareIcon.facebook a:after{content:'Facebook';margin-left:15px}
+.Blog .post-shareIcon.facebook a:hover svg{fill:#3059b0}
+.Blog .post-shareIcon.whatsapp a:after{content:'Whatsapp';margin-left:15px}
+.Blog .post-shareIcon.whatsapp a:hover svg{fill:#25D366}
+.Blog .post-shareIcon.twitter a:after{content:'Twitter';margin-left:15px}
+.Blog .post-shareIcon.twitter a:hover svg{fill:#55acef}
+.Blog .post-shareButton{flex-grow:0}
+.Blog .post-shareInner ul, .Blog .post-font .post-fontContainer ul{display:flex;flex-wrap:wrap;padding:90px 25px 0;list-style:none}
+.Blog .post-shareInner ul:before, .Blog .post-font .post-fontContainer ul:before{top:0;left:0;text-align:center}
+.Blog .post-shareInner li{width:25%;text-align:center;padding:0 8px 30px}
+.Blog .post-shareInner li > *{display:inline-block;color:inherit}
+.Blog .post-shareInner li > * svg{width:28px;height:30px;fill:$(icon.sec.colors)}
+.Blog .post-shareInner li > *:after{display:block;margin:5px 0 0;font-size:90%;line-height:20px}
+.Blog .post-shareInner li input{margin:0;padding:0;outline:0;border:0;width:1px;height:0;opacity:0}
+.Blog .post-shareInner li > .post-shareNotif{display:flex;position:fixed;left:0;right:0;bottom:-42px}
+.Blog .post-shareInner li > .post-shareNotif span{display:block;position:relative;bottom:-200px;width:240px;margin:0 auto;padding:10px;border-radius:1px;background-color:rgba(0,0,0,.9);color:#fefefe;line-height:22px;text-align:center;opacity:0;transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;-webkit-animation:slidein 2s ease forwards;animation:slidein 2s ease forwards}
+.Blog .post-shareInner li.close > *:after, .Blog .post-shareInner li > .post-shareNotif:after, .Blog .post-shareInner li > input:after{display:none}
+.Blog .post-shareInner, .Blog .post-font .post-fontContainer, .Profile .team .all-member{position:fixed;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;z-index:50;-webkit-transition:all .2s ease;transition:all .2s ease;opacity:0;visibility:hidden}
+.Blog .post-shareInner ul, .Blog .post-font .post-fontContainer ul, .Profile .team .all-member .all-memberBox{position:relative;width:95%;max-width:500px;margin:0 auto -50%;background-color:#fafafc;border-radius:20px;z-index:3;-webkit-transition:all .2s ease;transition:all .2s ease}
+.Blog .post-shareInner ul:before, .Blog .post-font .post-fontContainer ul:before, .Profile .team .all-member .all-memberBox:before{content:attr(data-text);width:100%;display:block;padding:28px 25px 10px;background-color:#fafafc;border-radius:20px 20px 0 0;font-size:15px;font-weight:700;font-family:$(heading.font);color:$(main.colors);position:absolute;z-index:1}
+.Blog .post-shareInner .close, .Blog .post-font .post-fontContainer .close, .Profile .team .all-member .member-close{width:30px;height:30px;margin:0;position:absolute;top:20px;right:-15px;z-index:1;padding:0}
+.Blog .post-shareInner .close label, .Blog .post-font .post-fontContainer .close > *, .Profile .team .all-member .member-close label{margin:0;display:flex;align-items:center;justify-content:center;height:100%;background-color:$(link.bg.colors);border-radius:50%}
+.Blog .post-shareInner .close svg, .Blog .post-font .post-fontContainer .close > * svg, .Profile .team .all-member .member-close svg{width:22px;height:22px;padding:0;margin:0;background:transparent;fill:#fefefe}
+.Blog .post-shareIn:checked + .post-shareInner, .Blog .post-font .post-fontContainer.active, .Profile .team .all-team:checked + .all-member{opacity:1;visibility:visible}
+.Blog .post-shareIn:checked + .post-shareInner ul, .Blog .post-font .post-fontContainer.active ul, .Profile .team .all-team:checked + .all-member .all-memberBox{margin:0 auto}
+.Blog .post-shareIn:checked + .post-shareInner .full-close, .Blog .post-font .post-fontContainer.active .full-close, .Profile .team .all-team:checked + .all-member .full-close{background:rgba(0,0,0,.35);opacity:1;visibility:visible}
+
+.Blog .separate{display:block;margin:20px 0}
+.Blog .separate:before{content:'\2027 \2027 \2027';display:block;color:#505050;text-align:center;font-size:28px;font-style:normal;letter-spacing:0.6em;text-indent:0.6em;clear:both}
+
+
+.Blog table.tr-caption-container{min-width:inherit;width:auto;margin:0 auto;border:0;position:relative}
+.Blog table.tr-caption-container tr td{background-color:transparent;border:0;padding:0}
+.Blog table.tr-caption-container tr:nth-child(2n+1) td, .Blog table.tr-caption-container tr:nth-child(2n+1) td:first-child{border:0;background:transparent}
+.Blog table.tr-caption-container .tr-caption{display:block;font-size:12px;font-style:italic;color:$(alt.text.colors);background-color:transparent;border:0}
+
+.Blog table{min-width:70%;margin:0 auto;border:0;overflow:hidden;font-size:14px;}
+.Blog table th{background-color:transparent;padding:15px 20px;border:1px solid #ddd;border-left:0;font-family:$(heading.font);font-size:13px}
+.Blog table th:last-child, .Blog table tr td:last-child, .Blog table tr:nth-child(2n) td:last-child{border-right:0}
+.Blog table td{padding:15px 20px;border:1px solid #ddd;border-left:0;border-top:0;vertical-align:middle}
+.Blog table tr:nth-child(2n + 1) td{background-color:rgba(0,0,0,.025)}
+.Blog .table{display:block;overflow-y:hidden;overflow-x:auto;border-radius:3px;scroll-behavior:smooth;}
+
+
 /* Error 404 Page */
 .error-404{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}
 .error-404:before{display:none}
